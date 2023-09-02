@@ -1,0 +1,45 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin-bottom: 30px;
+}
+.height {
+  margin-bottom: 30px;
+}
+.height input {
+  padding: 10px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.height label {
+  font-size: 20px;
+}
+
+.weight {
+  margin-bottom: 40px;
+}
+.weight input {
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.weight label {
+  font-size: 20px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#caluculate-btn {
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px;
+}
+#res {
+  margin-top: 20px;
+}

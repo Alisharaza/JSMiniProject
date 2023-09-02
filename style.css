@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.cell {
+  display: block;
+  height: 5rem;
+  width: 5rem;
+  border: 1px solid black;
+  margin: 2px;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.cyan {
+  background-color: cyan;
+}
+.pink {
+  background-color: pink;
+}
+.used {
+  background-color: black;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.movies {
+  height: 8rem;
+  width: 10rem;
+  border: 2px solid blue;
+  background-color: aqua;
+}
+.select {
+  align-items: center;
+  width: 10rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.heading {
+  height: 1.5rem;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.price-heelo {
+  height: 80%;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+.container {
+  height: 25rem;
+  width: 25rem;
+  border: 1px solid red;
+  margin: 3rem;
+}
+.orange {
+  height: 15rem;
+  width: 15rem;
+  border: 1px solid black;
+  padding: 2rem;
+  background-color: orangered;
+}
+
+.blue {
+  height: 9rem;
+  width: 9rem;
+  border: 1px solid black;
+  padding: 3rem;
+  background-color: blue;
+}
+
+.yellow {
+  height: 5rem;
+  width: 5rem;
+  border: 1px solid black;
+  padding: 2rem;
+}
+.pink {
+  height: 6rem;
+  width: 6rem;
+  padding: 1rem;
+  border: 1px solid black;
+}
+.blue-1 {
+  height: 2rem;
+  width: 2rem;
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: blueviolet;
+}
+.container-box {
+  width: 60%;
+  display: flex;
+  padding-top: 5px;
+  flex-wrap: wrap;
+}
+.card-solid {
+  height: 7rem;
+  width: 7rem;
+  border: 1px solid !important;
+}
+#card {
+  height: 7rem;
+  width: 7rem;
+  border: 1px dashed black;
+}

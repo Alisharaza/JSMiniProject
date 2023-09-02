@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h3 {
+  margin: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  margin: 20px;
+}
+.box #guess {
+  padding: 8px;
+  margin: 30px;
+}
+.box input {
+  margin: 10px;
+  width: 200px;
+  padding: 10px;
+}
+#btn {
+  border-radius: 10px;
+  padding: 8px;
+  width: 150px;
+  height: 40px;
+  margin: 20px;
+}
+#restart {
+  padding: 7px;
+  width: 100px;
+  margin: 20px;
+  border-radius: 10px;
+}

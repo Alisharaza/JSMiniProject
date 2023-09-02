@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #222;
+  color: white;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 10px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.container {
+  margin: auto;
+}
+.stopwatch {
+  display: flex;
+  width: 30rem;
+  height: 30rem;
+  border: 10px solid white;
+  height: 15rem;
+
+  /* border-radius: 50%; */
+  margin: 50px auto;
+  color: white;
+}
+.clock-face {
+  margin: auto;
+  font-size: 4rem;
+  font-size: 6rem;
+  text-align: center;
+  width: 100%;
+}
+.clock-face span {
+  color: rgba(200, 66, 13, 0.95);
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+  width: 30rem;
+}
+button {
+  padding: 10px;
+  background-color: #694343;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  width: 100px;
+  box-shadow: 5px 5px 1 px rgba(56, 51, 51, 0.5);
+  transition: all 0.5s;
+}
+button:hover {
+  cursor: pointer;
+}
+button:active {
+  box-shadow: none;
+  transition: all 0.5s;
+}
